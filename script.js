@@ -149,11 +149,11 @@ function initTypingEffect() {
 
     const roles = [
         'Software Engineer',
-        'DevOps Engineer',
+        'Production Support Engineer',
+        'Site Reliability Engineer',
         'Automation Engineer',
-        'Cloud Engineer',
-        'RPA Developer',
-        'Site Reliability Engineer'
+        'AI-First Engineer',
+        'Cloud & DevOps Engineer'
     ];
 
     let roleIndex = 0;
@@ -212,7 +212,7 @@ function initScrollAnimations() {
 
     // Observe elements
     const elementsToAnimate = document.querySelectorAll(
-        '.skill-item, .project-card, .cert-card, .timeline-item, .award-item'
+        '.skill-item, .project-card, .cert-card, .cert-list-item, .result-card, .timeline-item, .award-item'
     );
 
     elementsToAnimate.forEach(element => {
